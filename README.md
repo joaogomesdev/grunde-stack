@@ -54,7 +54,7 @@ The database that comes with `arc sandbox` is an in memory database, so if you r
 ## Deployment
 
 This Remix Stack comes with two GitHub Actions that handle automatically deploying your app to production and staging environments. By default, Arc will deploy to the `us-west-2` region, if you wish to deploy to a different region, you'll need to change your [`app.arc`](https://arc.codes/docs/en/reference/project-manifest/aws)
-
+  
 Prior to your first deployment, you'll need to do a few things:
 
 - Create a new [GitHub repo](https://repo.new)
